@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente o tamanho do seu navegador.</p>
+    
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios em HTML5</h1>
+    <P>Vamos aprender a reproduzir áudios em HTML5.</P>
+    <audio src="midia/Cafecito por la Manana - Cumbia Deli.mp3" controls ></audio>
+    <h1>Inserindo vídeos hospedados localmente.</h1>
+    <p>Esse video está hospedado no meu próprio servidor.</p>
+    <video src="video/video_curso.mp4" width="500" controls autoplay loop></video>
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=w7IcLYZLLlcOd0e3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
